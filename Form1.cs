@@ -198,10 +198,7 @@ namespace DemoForYou
             MessageBox.Show("cancleID:" + tmp.ToString());
         }
 
-        private void button9_Click(object sender, EventArgs e)
-        {
-
-        }
+    
 
         private void disconnect_server_Click(object sender, EventArgs e)
         {

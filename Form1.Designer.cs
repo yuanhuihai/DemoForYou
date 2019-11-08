@@ -44,7 +44,6 @@
             this.button7 = new System.Windows.Forms.Button();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.connect_server = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
@@ -216,18 +215,6 @@
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
-            // button9
-            // 
-            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button9.Location = new System.Drawing.Point(452, 286);
-            this.button9.Margin = new System.Windows.Forms.Padding(2);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(86, 38);
-            this.button9.TabIndex = 22;
-            this.button9.Text = "button9";
-            this.button9.UseVisualStyleBackColor = false;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -312,7 +299,6 @@
             this.Controls.Add(this.label9);
             this.Controls.Add(this.Server_IP);
             this.Controls.Add(this.Search);
-            this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.textBox7);
             this.Controls.Add(this.button7);
@@ -354,7 +340,6 @@
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button connect_server;
         private System.Windows.Forms.Label label8;
